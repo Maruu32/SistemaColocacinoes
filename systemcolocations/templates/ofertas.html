@@ -1,0 +1,11 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+{%for o in ofertas_objects %}
+<ul>
+    <font size=5px color=red><i>{{o.nombreempresa}}</i></font>
+    <li><a href="">{{o.tipodetrabajo}}</a></li>
+    <li type=circle>{{o.descripcion}}</li>
+</ul>
+    {% endfor %}
+
